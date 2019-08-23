@@ -839,3 +839,8 @@ td {
   border: none;
   border-left: 1px solid #fff;
 }
+body {
+  background: url("/images/paper_nostalgia.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

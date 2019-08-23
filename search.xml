@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[嗨，你好啊]]></title>
-    <url>%2F2019%2F08%2F19%2Fmyn%2F</url>
-    <content type="text"><![CDATA[有没有一张图片 以下是正文]]></content>
+    <title><![CDATA[夏末]]></title>
+    <url>%2F2019%2F08%2F23%2F%E5%A4%8F%E6%9C%AB%2F</url>
+    <content type="text"><![CDATA[好像什么事也没有做，夏天就快过完了。 前两天翻手机，看到一句话：活在活着的人的心里，就是没有死去。 很久以前在《寻梦环游记》中就看到过相似的理解，觉得很有意思就去度娘问了一下，才知道是大卫·伊格曼在《生命清单》里写的一段话： 人的一生，要死去三次。 第一次，当你的心跳停止，呼吸消逝，你在生物学上被宣告了死亡。 第二次，当你下葬，人们穿着黑衣出席你的葬礼。他们宣告，你在这个社会上不复存在，你悄然离去。 第三次死亡，是这个世界上最后一个记得你的人，把你忘了。于是，你就真正地死去，整个宇宙都将不再和你有关。]]></content>
       <categories>
-        <category>嗨，你好啊</category>
+        <category>嗨，你好吗</category>
       </categories>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F08%2F19%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
