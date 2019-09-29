@@ -19,7 +19,7 @@
 
     <!-- Title -->
     
-    <title>归档：2019 | 小纸条</title>
+    <title>价值观 | 小纸条</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
@@ -49,8 +49,7 @@
 <body>
 
     <!-- Content -->
-    
-
+    <section class="article-container">
 <!-- Back Home -->
 <a class="nav-back" href="/">
     <i class="fa fa-puzzle-piece"></i>
@@ -61,91 +60,87 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading">
-                    <h1>2019</h1>
+                <div class="post-heading">
+                    <h1>价值观</h1>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Main Content -->
-<div class="container">
-    <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                <div class="post-preview archive">
-    <a href="/2019/09/04/价值观/">
-        <h1 class="post-title archive">
-            价值观
-        </h1>
-    </a>
-</div>
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <!-- Post Main Content -->
+            <div class="post-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p><strong>一个人在对另一个人的内心世界做出评判时，最好怀有一定程度的谦逊和宽和。</strong></p>
+<div align="center"><img src="/2019/09/04/价值观/JZG.jpg" title="湖边的鹿"></div>
+
+<a id="more"></a>
+<hr>
+<p>有人穿地摊货，却戴着Patek Philippe的手表；有人还在用iPhone4没换，但Gibson的电吉他买了签名款。不要拿你的价值观去丈量别人的实力，你觉得牛的东西，也许人家真的没兴趣。</p>
+<p>就像我，现在正在喝白开水，你就真以为我没钱吗？对，我就是没钱o(╥﹏╥)o。</p>
+
  
-            
-                <div class="post-preview archive">
-    <a href="/2019/09/02/雨季来临/">
-        <h1 class="post-title archive">
-            雨季来临
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/27/第二份半价/">
-        <h1 class="post-title archive">
-            第二份半价
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/26/又是周一，我不想上班！/">
-        <h1 class="post-title archive">
-            又是周一，我不想上班！
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/23/夏末/">
-        <h1 class="post-title archive">
-            夏末
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/20/琵琶/">
-        <h1 class="post-title archive">
-            琵琶
-        </h1>
-    </a>
-</div>
- 
-            
-                <div class="post-preview archive">
-    <a href="/2019/08/12/梦/">
-        <h1 class="post-title archive">
-            梦
-        </h1>
-    </a>
-</div>
- 
-            
-            <div class="archive-before-pagination"></div>
-            <ul class="pagiantion">
-    
-    
-</ul>
+                <!-- Meta -->
+                <div class="post-meta">
+                    <hr>
+                    <br>
+                    <div class="post-tags">
+                        
+                            
+
+<a href="/categories/嗨，你好吗/">嗨，你好吗</a>
+
+                        
+                    </div>
+                    <div class="post-date">
+                        2019 年 09 月 04 日
+                    </div>
+                </div>
+            </div>
+
+            <!-- Comments -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <!-- Disqus Comments -->
+
+
+            </div>
         </div>
     </div>
-</div>
+</article>
+</section>
 
+<!-- Image viewer-->
+
+    <!-- Custom picture view-->
+    <link href="/css/viewer.min.css" rel="stylesheet" />
+    <script
+      src="/js/viewer.min.js"
+      type="text/javascript"
+      charset="utf-8"
+    ></script>
+    
+    <script type="text/javascript">
+      // set image viewer
+      Viewer.setDefaults({
+        zoomRatio: [0.5],
+        navbar: false,
+        toolbar: false,
+        button: false,
+        title: [2, (image, imageData) => `${image.alt}`],
+        show: function() {
+          this.viewer.zoomTo(0.5);
+        }
+      });
+      var imageList = document.getElementsByTagName("img");
+      Array.prototype.forEach.call(imageList, element => {
+        var viewer = new Viewer(element);
+      });
+    </script>
+
+    
     <!-- Scripts -->
     <script type="text/javascript">
     console.log("© WuJing 🙋 2018-" + new Date().getFullYear());
